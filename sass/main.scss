@@ -1,0 +1,64 @@
+@import "utils/variables";
+@import "components/logo";
+@import "components/header";
+@import "components/hero";
+@import "components/button";
+@import "components/benefits";
+@import "components/about";
+@import "components/team";
+@import "components/social";
+@import "components/client";
+@import "components/footer";
+@import "components/portfolio";
+@import "components/modal";
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+}
+
+body {
+    font-family: $MainFont;
+    color: $TextColor;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.title {
+    color: $TitleColorDark;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}

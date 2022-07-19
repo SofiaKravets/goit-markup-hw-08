@@ -1,0 +1,18 @@
+.logo {
+    display: block;
+    font-family: $LogoFont;
+    color: $AccentColor;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.header__logo--accent {
+    color: $TitleColorDark;
+}
+
+.footer__logo--accent {
+    color: $TitleColorWhite;
+}
