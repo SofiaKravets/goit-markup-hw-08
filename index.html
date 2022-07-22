@@ -20,6 +20,7 @@
   <header class="header">
     <div class="header__container">
       <a class="logo" href="">Web<span class="header__logo--accent">Studio</span></a>
+      <div class="header__box">
       <nav>
         <ul class="header__list">
           <li class="list">
@@ -34,19 +35,20 @@
         </ul>
       </nav>
       <ul class="contact">
-        <li class="list">
+        <li class="list contact__list">
           <a class="contact__link link" href="mailto:info@devstudio.com">
             <svg class="contact__mail" width="16px" height="12px">
               <use href="./images/icons.svg#icon-envelope"></use>
             </svg>info@devstudio.com</a>
         </li>
-        <li class="list">
+        <li class="list contact__list">
           <a class="contact__link link" href="tel:+380961111111">
             <svg class="contact__tel" width="10px" height="16px">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>+38 096 111 11 11</a>
         </li>
       </ul>
+      </div>
     </div>
   </header>
   <!-- Блок унікального контенту на сторінці -->
@@ -114,7 +116,7 @@
       </div>
     </section>
     <!-- Секція About -->
-    <section class="about">
+   <section class="about">
       <div class="container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="about__list">
@@ -134,17 +136,17 @@
       </div>
     </section>
     <!-- Секція Team -->
-    <section class="team">
+   <section class="team">
       <div class="container">
         <h2 class="title">Наша команда</h2>
         <ul class="team__list">
           <li class="list team__item">
-            <img src="./images/product-designer.jpg " alt="фото Игоря Демьяненко" width="270" />
+            <img class="team__foto" src="./images/product-designer.jpg " alt="фото Игоря Демьяненко" width="270" />
             <div class="team__content">
               <h3 class="team__name">Игорь Демьяненко</h3>
               <p class="team__profesiya" lang="en">Product Designer</p>
             </div>
-            <div>
+            <div class="team__social">
               <ul class="social">
                 <li class="list">
                   <a class="social__link link" href="" aria-label="instagram">
@@ -178,12 +180,12 @@
             </div>
           </li>
           <li class="list team__item">
-            <img src="./images/frontend-developer.jpg" alt="фото Ольга Репина" width="270" />
+            <img class="team__foto" src="./images/frontend-developer.jpg" alt="фото Ольга Репина" width="270" />
             <div class="team__content">
               <h3 class="team__name">Ольга Репина</h3>
               <p class="team__profesiya" lang="en">Frontend Developer</p>
             </div>
-            <div>
+            <div class="team__social">
               <ul class="social">
                 <li class="list">
                   <a class="social__link link" href="" aria-label="instagram">
@@ -217,12 +219,12 @@
             </div>
           </li>
           <li class="list team__item">
-            <img src="./images/marketing.jpg" alt="фото Николая Тарасова" width="270" />
+            <img class="team__foto" src="./images/marketing.jpg" alt="фото Николая Тарасова" width="270" />
             <div class="team__content">
               <h3 class="team__name">Николай Тарасов</h3>
               <p class="team__profesiya" lang="en">Marketing</p>
             </div>
-            <div>
+            <div class="team__social">
               <ul class="social">
                 <li class="list">
                   <a class="social__link link" href="" aria-label="instagram">
@@ -256,12 +258,12 @@
             </div>
           </li>
           <li class="list team__item">
-            <img src="./images/UI-Designer.jpg" alt="фото Михаила Ермакова" width="270" />
+            <img class="team__foto" src="./images/UI-Designer.jpg" alt="фото Михаила Ермакова" width="270" />
             <div class="team__content">
               <h3 class="team__name">Михаил Ермаков</h3>
               <p class="team__profesiya" lang="en">UI Designer</p>
             </div>
-            <div>
+            <div class="team__social">
               <ul class="social">
                 <li class="list">
                   <a class="social__link link" href="" aria-label="instagram">
@@ -298,7 +300,7 @@
       </div>
     </section>
     <!-- Секція client-->
-    <section class="client">
+  <section class="client">
       <div class="container">
         <h2 class="title">Постоянные клиенты</h2>
         <ul class="client__cards">
@@ -351,6 +353,7 @@
   <!--Секція footer-->
     <footer class="footer">
       <div class="container footer__container">
+        <div class="primari__second">
         <div class="primari">
         <a class="logo" href="">Web<span class="footer__logo--accent">Studio</span></a>
         <address>
@@ -400,11 +403,12 @@
           </li>
         </ul>
         </div>
+        </div>
         <div>
           <form class="footer__form">
-            <div>
+            <div class="footer__ladel__form">
             <label class="footer__ladel">
-              <span>подпишитесь на рассылку</span>
+              <span class="footer__ladel__span">подпишитесь на рассылку</span>
               <input class="footer__input" type="email" name="user-mail" placeholder="E-mail">
             </label>
             </div>

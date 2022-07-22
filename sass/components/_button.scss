@@ -17,9 +17,17 @@
   padding: 10px 32px;
 }
 
+@media screen and (max-width: 1199px) {
 .footer--button {
-  margin-left: 12px;
-  margin-top: 46px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer--button {
+      margin-top: 46px;
+      margin-left: 12px;
+    }
 }
 
 .input__img {
@@ -29,6 +37,7 @@
 .button__list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 0;
   margin-bottom: 50px;
   gap: 8px;

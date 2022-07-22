@@ -1,36 +1,41 @@
 .about {
-    padding-bottom: 94px;
+  padding-bottom: 94px;
+}
+@media screen and (max-width: 1199px) {
+  .about {
+    display: none;
+  }
 }
 
 .about__list {
-    display: flex;
-    padding: 0;
+  display: flex;
+  padding: 0;
 }
 
 .about__img:nth-child(n + 2) {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 .about__img {
-    height: 294px;
-    position: relative;
+  position: relative;
+  height: 294px;
 }
 
 .about__item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    width: 100%;
-    height: 70px;
-    color: $TitleColorWhite;
-    background-color: rgba(47, 48, 58, 0.8);
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  width: 100%;
+  height: 70px;
+  color: $TitleColorWhite;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }

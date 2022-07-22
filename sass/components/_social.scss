@@ -1,12 +1,7 @@
 .social {
-    display: flex;
-    justify-content: space-between;
-    width: 206px;
-    height: 44px;
-    margin: 0;
+    display: inline-flex;
     padding: 0;
-    margin-left: 32px;
-    margin-bottom: 30px;
+    gap: 10px;
 }
 
 .social__link {
