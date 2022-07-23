@@ -20,40 +20,49 @@
 
   <body>
     <!--Секція header-->
-  <header class="header">
-    <div class="header__container">
-      <a class="logo" href="">Web<span class="header__logo--accent">Studio</span></a>
-      <div class="header__box">
-        <nav>
-          <ul class="header__list">
-            <li class="list">
-              <a class="header__link link current" href="./index.html">Студия</a>
+    <header class="header">
+      <div class="header__container">
+        <a class="logo" href="./index.html"
+          >Web<span class="header__logo--accent">Studio</span></a>
+      <div>
+        <button class="mobile__menu__btn" type="button" data-menu-button>
+          <svg class="mobile__menu__icon" width="24px" height="16px">
+            <use class="mobile__menu__burger" href="./images/icons.svg#mobile-menu"></use>
+            <use class="mobile__menu__close" href="./images/icons.svg#mobile-close"></use>
+          </svg>
+        </button>
+      </div>
+        <div class="header__box">
+          <nav>
+            <ul class="header__list">
+              <li class="list">
+                <a class="header__link link" href="./index.html">Студия</a>
+              </li>
+              <li class="list">
+                <a class="header__link link current" href="./portfolio.html"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="list">
+                <a class="header__link link" href="Контакты">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contact">
+            <li class="list contact__list">
+              <a class="contact__link link" href="mailto:info@devstudio.com">
+                <svg class="contact__mail" width="16px" height="12px">
+                  <use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a>
             </li>
-            <li class="list">
-              <a class="header__link link" href="./portfolio.html">Портфолио</a>
-            </li>
-            <li class="list">
-              <a class="header__link link" href="Контакты">Контакты</a>
+            <li class="list contact__list">
+              <a class="contact__link link" href="tel:+380961111111">
+                <svg class="contact__tel" width="10px" height="16px">
+                  <use href="./images/icons.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a>
             </li>
           </ul>
-        </nav>
-        <ul class="contact">
-          <li class="list contact__list">
-            <a class="contact__link link" href="mailto:info@devstudio.com">
-              <svg class="contact__mail" width="16px" height="12px">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>info@devstudio.com</a>
-          </li>
-          <li class="list contact__list">
-            <a class="contact__link link" href="tel:+380961111111">
-              <svg class="contact__tel" width="10px" height="16px">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-              </svg>+38 096 111 11 11</a>
-          </li>
-        </ul>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
     <!-- Блок унікального контенту на сторінці -->
     <main>
       <!-- Секція Portfolio -->
@@ -88,20 +97,36 @@
           <ul class="portfolio__list">
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-1.jpg" alt="Технокряк" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-1.jpg"
+                  alt="Технокряк"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
-              <div class="portfolio__content">
+              <div class="portfolio__content portfolio__content--tablet">
                 <h2 class="portfolio__title">Технокряк</h2>
                 <p class="portfolio__project">Веб-сайт</p>
               </div>
             </li>
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-2.jpg"
+                  alt="Постер New Orlean vs Golden Star"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
               <div class="portfolio__content">
                 <h2 class="portfolio__title">
@@ -112,9 +137,17 @@
             </li>
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-3.jpg" alt="Ресторан Seafood" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-3.jpg"
+                  alt="Ресторан Seafood"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
               <div class="portfolio__content">
                 <h2 class="portfolio__title">Ресторан Seafood</h2>
@@ -123,9 +156,17 @@
             </li>
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-4.jpg" alt="Проект Prime" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-4.jpg"
+                  alt="Проект Prime"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
               <div class="portfolio__content">
                 <h2 class="portfolio__title">Проект Prime</h2>
@@ -134,9 +175,17 @@
             </li>
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-5.jpg" alt="Проект Boxes" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-5.jpg"
+                  alt="Проект Boxes"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
               <div class="portfolio__content">
                 <h2 class="portfolio__title">Проект Boxes</h2>
@@ -145,9 +194,17 @@
             </li>
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-6.jpg" alt="Inspiration has no Borders" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-6.jpg"
+                  alt="Inspiration has no Borders"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
               <div class="portfolio__content">
                 <h2 class="portfolio__title">Inspiration has no Borders</h2>
@@ -156,9 +213,17 @@
             </li>
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-7.jpg" alt="Издание Limited Edition" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-7.jpg"
+                  alt="Издание Limited Edition"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
               <div class="portfolio__content">
                 <h2 class="portfolio__title">Издание Limited Edition</h2>
@@ -167,9 +232,17 @@
             </li>
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-8.jpg" alt="Проект LAB" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-8.jpg"
+                  alt="Проект LAB"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
               <div class="portfolio__content">
                 <h2 class="portfolio__title">Проект LAB</h2>
@@ -178,9 +251,17 @@
             </li>
             <li class="list portfolio__item">
               <div class="portfolio__card">
-              <img src="./images/portfolio/img-9.jpg" alt="Growing Business" width="370" height="294"/>
-              <p class="portfolio__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить
-              исчерпывающие сведения <br>о компании или частном лице.</p>
+                <img
+                  src="./images/portfolio/img-9.jpg"
+                  alt="Growing Business"
+                  width="370"
+                  height="294"
+                />
+                <p class="portfolio__text">
+                  Ресурс предлагает комплексные предложения с разным уровнем
+                  функционала и сервисов. Все это позволит посетителю получить
+                  исчерпывающие сведения о компании или частном лице.
+                </p>
               </div>
               <div class="portfolio__content">
                 <h2 class="portfolio__title">Growing Business</h2>
@@ -196,17 +277,27 @@
       <div class="container footer__container">
         <div class="primari__second">
           <div class="primari">
-            <a class="logo" href="">Web<span class="footer__logo--accent">Studio</span></a>
+            <a class="logo" href="./index.html"
+              >Web<span class="footer__logo--accent">Studio</span></a
+            >
             <address>
               <ul class="footer__list">
                 <li class="list footer__item">
-                  <a class="footer__address link" href="г.Киев,пр-т-Леси-Украинки,-26">г. Киев, пр-т Леси Украинки, 26</a>
+                  <a
+                    class="footer__address link"
+                    href="г.Киев,пр-т-Леси-Украинки,-26"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
                 </li>
                 <li class="list footer__item">
-                  <a class="footer__link link" href="mailto:info@example.com">info@example.com</a>
+                  <a class="footer__link link" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
                 </li>
                 <li class="list footer__item">
-                  <a class="footer__link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                  <a class="footer__link link" href="tel:+380991111111"
+                    >+38 099 111 11 11</a
+                  >
                 </li>
               </ul>
             </address>
@@ -250,11 +341,17 @@
             <div class="footer__ladel__form">
               <label class="footer__ladel">
                 <span class="footer__ladel__span">подпишитесь на рассылку</span>
-                <input class="footer__input" type="email" name="user-mail" placeholder="E-mail">
+                <input
+                  class="footer__input"
+                  type="email"
+                  name="user-mail"
+                  placeholder="E-mail"
+                />
               </label>
             </div>
             <div>
-              <button class="button footer--button" type="submit">Подписаться
+              <button class="button footer--button" type="submit">
+                Подписаться
                 <svg class="input__img" width="24px" height="24px">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
@@ -264,5 +361,6 @@
         </div>
       </div>
     </footer>
+
   </body>
 </html>
