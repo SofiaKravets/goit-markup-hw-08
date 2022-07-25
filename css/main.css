@@ -1265,19 +1265,22 @@ body {
   }
 }
 
-.mobile__menu__icon {
-  z-index: 1000;
+.mobile__menu__burger {
+  opacity: 1;
+}
+.mobile__menu__btn.is-open .mobile__menu__burger {
+  opacity: 0;
 }
 
 .mobile__menu__close {
   opacity: 0;
 }
-.mobile__menu__btn .is-open .mobile__menu__close {
+.mobile__menu__btn.is-open .mobile__menu__close {
   opacity: 1;
 }
 
-.mobile__menu__btn .is-open .mobile__menu__burger {
-  opacity: 0;
+.mobile__menu__icon {
+  z-index: 1000;
 }
 
 /**Мобільне меню**/
