@@ -7,3 +7,11 @@
     letter-spacing: 0.03em;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 1199px) {
+    .title {
+        font-size: 28px;
+        line-height: 1.17;
+        margin-bottom: 30px;
+    }
+}

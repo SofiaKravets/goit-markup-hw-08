@@ -25,9 +25,16 @@
   }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 1199px) {
   .header__container {
     height: 80px;
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__container {
+    width: 470px;
   }
 }
 

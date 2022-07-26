@@ -75,6 +75,13 @@ body {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1199px) {
+  .title {
+    font-size: 28px;
+    line-height: 1.17;
+    margin-bottom: 30px;
+  }
+}
 .logo {
   display: block;
   font-family: "Raleway";
@@ -125,9 +132,15 @@ body {
     width: 1200px;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 1199px) {
   .header__container {
     height: 80px;
+    width: 768px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__container {
+    width: 470px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -369,6 +382,16 @@ body {
   gap: 8px;
 }
 
+@media screen and (max-width: 1199px) {
+  .button__list {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .button__list {
+    margin-bottom: 40px;
+  }
+}
 @media screen and (min-width: 768px) {
   .button__list {
     -webkit-box-pack: center;
@@ -588,6 +611,12 @@ body {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .team__list {
   padding: 0;
   gap: 30px;
@@ -665,9 +694,19 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 24px;
+  padding: 0px 122px 24px 122px;
 }
 
+@media screen and (min-width: 768px) {
+  .team__social {
+    padding: 0px 74px 30px 74px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team__social {
+    padding: 0px 32px 30px 32px;
+  }
+}
 .social {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -721,6 +760,12 @@ body {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .client {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .client__cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -942,6 +987,12 @@ body {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .portfolio__list {
   display: -webkit-box;
   display: -ms-flexbox;
